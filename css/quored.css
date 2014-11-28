@@ -1,0 +1,57 @@
+* { font-family: "Lato" !important; }
+
+.glyphicon{	font-family:'Glyphicons Halflings' !important; }
+
+body {
+  background-image: url('../img/fondo_1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.lead {
+	margin-bottom: 25px;
+}
+
+button {
+	width: 150px;
+	height: 150px;
+}
+
+.btn-quored {
+	color: red;
+	background-color: transparent;
+}
+
+.btn-ella {
+	background: url('../img/ella_b.png') no-repeat center center;
+}
+
+.btn-ella:hover {
+	background: white url('../img/ella.png') no-repeat center center;
+}
+
+.btn-corazon {
+	background: url('../img/corazon_b.png') no-repeat center center;
+}
+
+.btn-corazon:hover {
+	background: white url('../img/corazon.png') no-repeat center center;
+}
+
+.btn-el {
+	background: url('../img/el_b.png') no-repeat center center;
+}
+
+.btn-el:hover {
+	background: white url('../img/el.png') no-repeat center center;
+}
+
+
+.popover {
+	border-color: white;
+	color: red;
+}
+
+.popover.bottom>.arrow {
+	border-bottom-color: white;
+}
