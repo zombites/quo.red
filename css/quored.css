@@ -4,8 +4,9 @@
 
 body {
   background-image: url('../img/fondo_4.jpg');
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
+  background-color: #ff0000;
 }
 
 .lead {
@@ -54,4 +55,8 @@ button {
 
 .popover.bottom>.arrow {
 	border-bottom-color: white;
+}
+
+.inner > p {
+	text-shadow: 0 1px 1px rgb(0,0,0);
 }
