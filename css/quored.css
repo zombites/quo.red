@@ -12,21 +12,30 @@ body {
 	margin-bottom: 25px;
 }
 
-button {
+.btn-quored {
 	width: 150px;
 	height: 150px;
-}
-
-.btn-quored {
 	color: red;
 	background-color: transparent;
+}
+
+ .a-popover {
+ 	text-shadow: none;
+	color: red;
+	font-weight: bold;
+}
+
+.a-popover:hover {
+	color: red;
+	text-decoration: underline;
 }
 
 .btn-ella {
 	background: url('../img/ella_b.png') no-repeat center center;
 }
 
-.btn-ella:hover {
+.btn-ella:hover,
+.btn-ella:focus {
 	background: white url('../img/ella.png') no-repeat center center;
 }
 
@@ -34,7 +43,8 @@ button {
 	background: url('../img/corazon_b.png') no-repeat center center;
 }
 
-.btn-corazon:hover {
+.btn-corazon:hover,
+.btn-corazon:focus {
 	background: white url('../img/corazon.png') no-repeat center center;
 }
 
@@ -42,7 +52,8 @@ button {
 	background: url('../img/el_b.png') no-repeat center center;
 }
 
-.btn-el:hover {
+.btn-el:hover,
+.btn-el:focus {
 	background: white url('../img/el.png') no-repeat center center;
 }
 
