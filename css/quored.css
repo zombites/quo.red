@@ -58,6 +58,15 @@ body {
 	background: white url('../img/el.png') no-repeat center center;
 }
 
+.btn-blog {
+	background: url('../img/blog_b.png') no-repeat center center;
+}
+
+.btn-blog:hover,
+.btn-blog:focus {
+	background: white url('../img/blog.png') no-repeat center center;
+}
+
 
 .popover {
 	border-color: white;
