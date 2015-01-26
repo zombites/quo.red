@@ -14,10 +14,16 @@ body {
 }
 
 .btn-quored {
-	width: 150px;
-	height: 150px;
-	color: red;
+	width: 160px;
+	height: 160px;
+	color: white;
 	background-color: transparent;
+	/*padding-top: 130px !important;*/
+}
+
+.btn-quored:hover,
+.btn-quored:focus {
+	color: red;
 }
 
  .a-popover {
@@ -31,31 +37,36 @@ body {
 	text-decoration: underline;
 }
 
+#a-blog:hover,
+#a-blog:focus {
+	color: #777777;
+}
+
 .btn-ella {
-	background: url('../img/ella_b.png') no-repeat center center;
+	background: url('../img/ella_b.png') no-repeat center 40px;
 }
 
 .btn-ella:hover,
 .btn-ella:focus {
-	background: white url('../img/ella.png') no-repeat center center;
+	background: white url('../img/ella.png') no-repeat center 40px;
 }
 
 .btn-corazon {
-	background: url('../img/corazon_b.png') no-repeat center center;
+	background: url('../img/corazon_b.png') no-repeat center 40px;
 }
 
 .btn-corazon:hover,
 .btn-corazon:focus {
-	background: white url('../img/corazon.png') no-repeat center center;
+	background: white url('../img/corazon.png') no-repeat center 40px;
 }
 
 .btn-el {
-	background: url('../img/el_b.png') no-repeat center center;
+	background: url('../img/el_b.png') no-repeat center 40px;
 }
 
 .btn-el:hover,
 .btn-el:focus {
-	background: white url('../img/el.png') no-repeat center center;
+	background: white url('../img/el.png') no-repeat center 40px;
 }
 
 .btn-blog {
