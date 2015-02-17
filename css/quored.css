@@ -60,6 +60,13 @@ a:hover {
 	cursor: pointer; 
 }
 
+
+@media (max-width:640px){
+	.btn-video{
+		margin-top: -50px;
+	}
+}
+
 .btn-quored:hover,
 .btn-quored:focus {
 	color: red;
