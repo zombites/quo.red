@@ -17,6 +17,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #ff0000;
+	background-position: top center;
 }
 
 #footer {

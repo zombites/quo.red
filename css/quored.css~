@@ -17,6 +17,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #ff0000;
+	background-position: center;
 }
 
 #footer {
@@ -61,7 +62,7 @@ a:hover {
 }
 
 
-@media (min-width:640px){
+@media (max-width:640px){
 	.btn-video{
 		margin-top: -50px;
 	}
